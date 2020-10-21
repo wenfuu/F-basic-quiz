@@ -8,30 +8,39 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Resume</title>
+    <link rel="stylesheet" href="./src/style/index.css" />
   </head>
   <body>
     <script src="src/app.js"></script>
-    <main>
+    <main class="mainContainer">
       <img
         src="https://inews.gtimg.com/newsapp_match/0/3581582328/0"
         alt="avatar"
+        class="avatar"
       />
-      <p>HELLO,</p>
-      <p>MY NAME IS KAMIL 24 YO AND THIS IS MY RESUME/CV</p>
-      <h2>ABOUT ME</h2>
-      <p>
+      <p class="greeting">HELLO,</p>
+      <p class="introduction">
+        MY NAME IS KAMIL 24 YO AND THIS IS MY RESUME/CV
+      </p>
+      <hr class="hr" />
+      <h2 class="content_headline">ABOUT ME</h2>
+      <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
         non, dolorem, cumque distinctio magni quam expedita velit laborum sunt
         amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum!
         Quasi.
       </p>
-      <h2>EDUCATION</h2>
-      <p>1990</p>
-      <p>I was born in Katowice</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente,
-        exercitationem, totam, dolores iste dolore est aut modi.
-      </p>
+      <h2 class="content_headline">EDUCATION</h2>
+      <div class="education">
+        <p>1990</p>
+        <div class="education_container">
+          <p class="education_headline">I was born in Katowice</p>
+          <p class="education_content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente,
+            exercitationem, totam, dolores iste dolore est aut modi.
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
