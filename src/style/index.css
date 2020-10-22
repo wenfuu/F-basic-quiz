@@ -1,3 +1,5 @@
+/*TODO GTB-工程实践: - css的class命名不符合规范a-b的格式*/
+/*TODO GTB-知识点: - 不用新建一个index.css文件，写在index.scss文件里面就行了*/
 .mainContainer {
   margin: 128px auto;
   width: 80%;
@@ -50,7 +52,7 @@
   display: flex;
   justify-content: space-between;
 }
-
+/*TODO GTB-知识点: - 应该给年份和education_container一个宽度*/
 .education_container {
   background-color: #fafaff;
   padding: 0 16px;
