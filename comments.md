@@ -22,7 +22,7 @@ __Details:__
 - \- 不用新建一个index.css文件，写在index.scss文件里面就行了
 - \- 应该给年份和education_container一个宽度
 - \- 没有把UserApi export出去
-- \- Promise的使用不正确：这里应该是返回promise就好了，然后在调用这个api的地方使用async/await
+- \- Promise的理解不到位，你这里都没有把你的API结果return出去，所以你resolve出去的是一个undefined
 - \- 没有把EducationApi export出去
 - \- Promise的使用不正确：这里应该是返回promise就好了，然后在调用这个api的地方使用async/await
 
@@ -32,6 +32,7 @@ __Details:__
 __Details:__
 
 - \- css的class命名不符合规范a-b的格式
+- \- 方法名叫getUser,调用的API却是拿到education
 
 ### 综合：
 
